@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vonky Fashion</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="loader"><div class="loader-inner"></div></div>
+
+    <!-- PAGE TRANSITION -->
+    <div class="page-transition"></div>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="logo">Vonky Fashion</div>
+
+      <!-- Hamburger -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#testimony">Testimony</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-mask"></div>
+      <img src="assets/images/6.jpg" class="hero-bg" />
+      <h1 class="hero-title">Vonky<br />Fashion</h1>
+      <div class="hero-stamp"><span>Luxury</span><span>Collection</span></div>
+
+      <!-- Floating SVGs -->
+      <svg class="hero-svg" viewBox="0 0 800 600">
+        <circle cx="100" cy="100" r="50" fill="#fff" opacity="0.05" />
+        <circle cx="700" cy="500" r="70" fill="#fff" opacity="0.03" />
+        <rect
+          x="300"
+          y="200"
+          width="200"
+          height="5"
+          fill="#fff"
+          opacity="0.04"
+        />
+      </svg>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <svg class="about-svg" viewBox="0 0 800 600">
+        <circle cx="50" cy="50" r="40" fill="#fff" opacity="0.03" />
+        <circle cx="750" cy="550" r="60" fill="#fff" opacity="0.05" />
+      </svg>
+      <div class="about-image"><img src="assets/images/7.jpg" /></div>
+      <div class="about-text">
+        <h2>Designed to Move</h2>
+        <p>
+          vonky crafts bold silhouettes and expressive collections for those who
+          wear confidence as identity.
+        </p>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection" id="collection">
+      <h2 class="section-title">Collection</h2>
+      <p class="section-info">
+        Curated line of modern suits and fashion essentials with subtle
+        elegance.
+      </p>
+      <div class="collection-grid">
+        <div class="collection-item">
+          <img src="assets/images/9.avif" />
+          <h3>Classic Suit</h3>
+          <p>Black & White tailored suit, elegant & timeless.</p>
+        </div>
+        <div class="collection-item">
+          <img src="assets/images/12.jpg" />
+          <h3>Modern Blazer</h3>
+          <p>Minimalist blazer for bold statements.</p>
+        </div>
+        <div class="collection-item">
+          <img src="assets/images/8.jpg" />
+          <h3>Luxury Coat</h3>
+          <p>Structured coat with sleek black and white contrast.</p>
+        </div>
+        <div class="collection-item">
+          <img src="assets/images/10.jpg" />
+          <h3>Formal Shirt</h3>
+          <p>Essential piece for a sophisticated wardrobe.</p>
+        </div>
+      </div>
+      <svg class="collection-svg" viewBox="0 0 800 600">
+        <circle cx="400" cy="300" r="200" fill="#fff" opacity="0.02" />
+        <rect
+          x="100"
+          y="100"
+          width="600"
+          height="5"
+          fill="#fff"
+          opacity="0.03"
+        />
+      </svg>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial" id="testimonial">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="testimonial-track">
+        <div class="testimonial-box">"Absolutely love vonky designs!"</div>
+        <div class="testimonial-box">
+          "Elegant, modern, and perfect for work."
+        </div>
+        <div class="testimonial-box">
+          "High-quality fashion that speaks for itself."
+        </div>
+        <div class="testimonial-box">"Every piece feels like a statement."</div>
+        <div class="testimonial-box">
+          "The perfect mix of style and sophistication."
+        </div>
+      </div>
+      <svg class="testimonial-svg" viewBox="0 0 800 600">
+        <circle cx="200" cy="100" r="80" fill="#fff" opacity="0.03" />
+        <circle cx="600" cy="500" r="50" fill="#fff" opacity="0.04" />
+      </svg>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-bg">
+        <!-- Floating playful SVGs -->
+        <svg class="footer-svg circle1" viewBox="0 0 100 100">
+          <circle
+            cx="50"
+            cy="50"
+            r="30"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+          />
+        </svg>
+        <svg class="footer-svg circle2" viewBox="0 0 100 100">
+          <rect
+            x="10"
+            y="10"
+            width="30"
+            height="30"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+          />
+        </svg>
+        <svg class="footer-svg circle3" viewBox="0 0 100 100">
+          <polygon
+            points="50,15 80,85 20,85"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+
+      <div class="footer-content">
+        <h3>Contact US</h3>
+        <div class="contact-info">
+          <p>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:feranmioresajo@gmail.com"
+              >feranmioresajo@gmail.com</a
+            >
+          </p>
+          <p>
+            <i class="fa fa-phone"></i>
+            <a href="tel:+2340972182889">+2340972182889</a>
+          </p>
+          <p>
+            <i class="fa fa-map-marker"></i> GRA, Sagamu, Ogun State, Nigeria
+          </p>
+        </div>
+
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps?q=GRA,Sagamu,Ogun%20State,Nigeria&output=embed"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/fer_nmi" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://wa.me/2349072182889" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/oluwaferanmi-oresajo"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@fe__nmi" target="_blank"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+          </li>
+        </ul>
+
+        <p class="powered">Powered by <span>Ferous</span></p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
